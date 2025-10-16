@@ -1,0 +1,5 @@
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.AssemblyReference.cache
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.Form1.resources
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.Properties.Resources.resources
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.GenerateResource.cache
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.CoreCompileInputs.cache
