@@ -1,0 +1,9 @@
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\bin\Debug\project UTS.exe.config
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\bin\Debug\project UTS.exe
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\bin\Debug\project UTS.pdb
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\obj\Debug\project UTS.csproj.AssemblyReference.cache
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\obj\Debug\project_UTS.Properties.Resources.resources
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\obj\Debug\project UTS.csproj.GenerateResource.cache
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\obj\Debug\project UTS.csproj.CoreCompileInputs.cache
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\obj\Debug\project UTS.exe
+C:\Users\dewad\Documents\GitHub\Peeveed\project UTS\project UTS\obj\Debug\project UTS.pdb
