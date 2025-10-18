@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3185C47-38D0-4FEA-BC29-E743141988EE}|utsBagian1Uts\\utsBagian1Uts.csproj|C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsbagian1uts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3185C47-38D0-4FEA-BC29-E743141988EE}|utsBagian1Uts\\utsBagian1Uts.csproj|solutionrelative:utsbagian1uts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3185C47-38D0-4FEA-BC29-E743141988EE}|utsBagian1Uts\\utsBagian1Uts.csproj|c:\\users\\vince\\onedrive\\documents\\campus\\git\\semester3\\pvuts\\peeveed\\utsbagian1uts\\utsbagian1uts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A3185C47-38D0-4FEA-BC29-E743141988EE}|utsBagian1Uts\\utsBagian1Uts.csproj|solutionrelative:utsbagian1uts\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3185C47-38D0-4FEA-BC29-E743141988EE}|utsBagian1Uts\\utsBagian1Uts.csproj|C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsbagian1uts\\databagian1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3185C47-38D0-4FEA-BC29-E743141988EE}|utsBagian1Uts\\utsBagian1Uts.csproj|solutionrelative:utsbagian1uts\\databagian1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsBagian1Uts\\Form1.cs",
+              "RelativeDocumentMoniker": "utsBagian1Uts\\Form1.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsBagian1Uts\\Form1.cs",
+              "RelativeToolTip": "utsBagian1Uts\\Form1.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAIwKwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:22:17.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsBagian1Uts\\Form1.cs",
+              "RelativeDocumentMoniker": "utsBagian1Uts\\Form1.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsBagian1Uts\\Form1.cs [Design]",
+              "RelativeToolTip": "utsBagian1Uts\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:21:08.888Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBagian1.cs",
+              "DocumentMoniker": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsBagian1Uts\\DataBagian1.cs",
+              "RelativeDocumentMoniker": "utsBagian1Uts\\DataBagian1.cs",
+              "ToolTip": "C:\\Users\\vince\\OneDrive\\Documents\\Campus\\Git\\Semester3\\PVUTS\\Peeveed\\utsBagian1Uts\\utsBagian1Uts\\DataBagian1.cs",
+              "RelativeToolTip": "utsBagian1Uts\\DataBagian1.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T09:21:05.38Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

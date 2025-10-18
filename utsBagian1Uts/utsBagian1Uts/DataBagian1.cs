@@ -11,16 +11,19 @@ namespace utsBagian1Uts
     public static class DataBagian1
     {
         // data total resources
-        static int totalWood = 0;
-        static int totalIRon = 0;
-        static int totalClay = 0;
-        static int totalCrop = 0;
+        static double totalWood = 0;
+        static double totalIRon = 0;
+        static double totalClay = 0;
+        static double totalCrop = 0;
+        static public double[] resource = { 0, 0, 0, 0 }; //clay, iron, wood, crop
+
 
         //data rate production resource per hour
         static int rateWood = 0;
         static int rateIron = 0;
         static int rateClay = 0;
         static int rateCrop = 0;
+        static public int[] income = { 32, 32, 32, 48 }; //clay, iron, wood, crop
 
         //data timer normal
         static int second = 0;
@@ -38,6 +41,7 @@ namespace utsBagian1Uts
         //speed multiplier
         static int speedmul = 0;
 
+        //MegNote: wood[0], clay[1], iron[2], crop[3], waktu(detik)[4], production/hour[5]
 
         static int[,] reqUpgradeTree =
         {
@@ -135,6 +139,19 @@ namespace utsBagian1Uts
             {1704565,1363650,511370,1022740,5918370,3430}
         };
 
+        /// <summary>
+        /// Retrieves the resource and time requirements for upgrading a specific building type to a given level.
+        /// </summary>
+        /// <param name="tipeUpgrade">The type of building to upgrade. Valid values are "tree", "clay", "iron", and "crop".</param>
+        /// <param name="level">The level to which the building is being upgraded. Must be greater than 0.</param>
+        /// <returns>An array of integers representing the upgrade requirements. The array contains the following values: <list
+        /// type="number"> <item><description>Wood required.</description></item> <item><description>Clay
+        /// required.</description></item> <item><description>Iron required.</description></item>
+        /// <item><description>Crop required.</description></item> <item><description>Time required (in
+        /// seconds).</description></item> <item><description>Production increase.</description></item> </list></returns>
+        /// <exception cref="ArgumentException">Thrown if <paramref name="tipeUpgrade"/> is not one of the valid building types ("tree", "clay", "iron",
+        /// "crop").</exception>
+
         public static int[] getUpgradeData(string tipeUpgrade, int level)
         {
             int index = level - 1;
@@ -149,7 +166,7 @@ namespace utsBagian1Uts
                         reqUpgradeTree[index,1], //clay
                         reqUpgradeTree[index,2], //iron
                         reqUpgradeTree[index,3], //crop
-                        reqUpgradeTree[index,4],//waku(detik)
+                        reqUpgradeTree[index,4],//waktu(detik)
                         reqUpgradeTree[index,6] //production 
                     };
                 case "clay":
@@ -159,7 +176,7 @@ namespace utsBagian1Uts
                         reqUpgradeClay[index,1], //clay
                         reqUpgradeClay[index,2], //iron
                         reqUpgradeClay[index,3], //crop
-                        reqUpgradeClay[index,4],//waku(detik)
+                        reqUpgradeClay[index,4],//waktu(detik)
                         reqUpgradeClay[index,6] //production 
                     };
                 case "iron":
@@ -169,7 +186,7 @@ namespace utsBagian1Uts
                         reqUpgradeIron[index,1], //clay
                         reqUpgradeIron[index,2], //iron
                         reqUpgradeIron[index,3], //crop
-                        reqUpgradeIron[index,4],//waku(detik)
+                        reqUpgradeIron[index,4],//waktu(detik)
                         reqUpgradeIron[index,6] //production 
                     };
                 case "crop":
@@ -179,7 +196,7 @@ namespace utsBagian1Uts
                         reqUpgradeCrop[index,1], //clay
                         reqUpgradeCrop[index,2], //iron
                         reqUpgradeCrop[index,3], //crop
-                        reqUpgradeCrop[index,4],//waku(detik)
+                        reqUpgradeCrop[index,4],//waktu(detik)
                         reqUpgradeCrop[index,6] //production 
                     };
                 default:
@@ -187,6 +204,7 @@ namespace utsBagian1Uts
             }
 
         }
+        
 
 
 
