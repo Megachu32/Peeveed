@@ -16,6 +16,7 @@ namespace utsBagian1Uts
         public Form1()
         {
             InitializeComponent();
+            timerNormal.Start();
         }
         // all variable is in here
 
@@ -38,15 +39,64 @@ namespace utsBagian1Uts
             }
         }
 
-        private void timerNormal_Tick(object sender, EventArgs e)
+        public void timerNormal_Tick(object sender, EventArgs e)
+        {
+            //upadte current resource and rate
+            labelTotalClay.Text = DataBagian1.totalClay.ToString();
+            labelTotalCrop.Text = DataBagian1.totalCrop.ToString();
+            labelTotalIron.Text = DataBagian1.totalIRon.ToString();
+            labelTotalWood.Text = DataBagian1.totalWood.ToString();
+            labelRateCorp.Text = DataBagian1.rateCrop.ToString();
+            labelRateIron.Text = DataBagian1.rateIron.ToString();
+            labelRateWood.Text = DataBagian1.rateWood.ToString();
+            labelRateClay.Text = DataBagian1.rateClay.ToString();
+
+            // upadte normal timer 
+            DataBagian1.second++;
+            if (DataBagian1.second == 60)
+            {
+                DataBagian1.second = 0;
+                DataBagian1.minute++;
+            }
+            if (DataBagian1.minute == 60)
+            {
+                DataBagian1.minute = 0;
+                DataBagian1.hour++;
+            }
+
+        }
+
+        public static void timerUpgrade_Tick(object sender, EventArgs e)
         {
 
         }
 
-        private void timerUpgrade_Tick(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
         {
+            DataBagian1.addBuilding("tree", 1, 0);//index 0 tree 1
+            DataBagian1.addBuilding("tree", 1, 0);//intex 1 tree 2
+            DataBagian1.addBuilding("tree", 1, 0);//index 2 tree 3
+            DataBagian1.addBuilding("tree", 1, 0);//etc
+            DataBagian1.addBuilding("iron", 1, 0);
+            DataBagian1.addBuilding("iron", 1, 0);
+            DataBagian1.addBuilding("iron", 1, 0);
+            DataBagian1.addBuilding("iron", 1, 0);
+            DataBagian1.addBuilding("clay", 1, 0);
+            DataBagian1.addBuilding("clay", 1, 0);
+            DataBagian1.addBuilding("clay", 1, 0);
+            DataBagian1.addBuilding("clay", 1, 0);
+            DataBagian1.addBuilding("crop", 1, 0);
+            DataBagian1.addBuilding("crop", 1, 0);
+            DataBagian1.addBuilding("crop", 1, 0);
+            DataBagian1.addBuilding("crop", 1, 0);
+            DataBagian1.addBuilding("crop", 1, 0);
+            DataBagian1.addBuilding("crop", 1, 0);
+        }
+
+        public void refresButton()
+        {
+            buttonClay1.Text = DataBagian1.buildingLevel[9].ToString();
+        }
 
         }
-    }
-
 }

@@ -53,9 +53,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.labelTotalClay = new System.Windows.Forms.Label();
-            this.labelTotalIRon = new System.Windows.Forms.Label();
+            this.labelTotalIron = new System.Windows.Forms.Label();
             this.labelTotalWood = new System.Windows.Forms.Label();
-            this.labelTotalCorp = new System.Windows.Forms.Label();
+            this.labelTotalCrop = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -292,14 +292,14 @@
             this.labelTotalClay.TabIndex = 23;
             this.labelTotalClay.Text = "0";
             // 
-            // labelTotalIRon
+            // labelTotalIron
             // 
-            this.labelTotalIRon.AutoSize = true;
-            this.labelTotalIRon.Location = new System.Drawing.Point(177, 84);
-            this.labelTotalIRon.Name = "labelTotalIRon";
-            this.labelTotalIRon.Size = new System.Drawing.Size(23, 25);
-            this.labelTotalIRon.TabIndex = 24;
-            this.labelTotalIRon.Text = "0";
+            this.labelTotalIron.AutoSize = true;
+            this.labelTotalIron.Location = new System.Drawing.Point(177, 84);
+            this.labelTotalIron.Name = "labelTotalIron";
+            this.labelTotalIron.Size = new System.Drawing.Size(23, 25);
+            this.labelTotalIron.TabIndex = 24;
+            this.labelTotalIron.Text = "0";
             // 
             // labelTotalWood
             // 
@@ -310,14 +310,14 @@
             this.labelTotalWood.TabIndex = 25;
             this.labelTotalWood.Text = "0";
             // 
-            // labelTotalCorp
+            // labelTotalCrop
             // 
-            this.labelTotalCorp.AutoSize = true;
-            this.labelTotalCorp.Location = new System.Drawing.Point(361, 84);
-            this.labelTotalCorp.Name = "labelTotalCorp";
-            this.labelTotalCorp.Size = new System.Drawing.Size(23, 25);
-            this.labelTotalCorp.TabIndex = 26;
-            this.labelTotalCorp.Text = "0";
+            this.labelTotalCrop.AutoSize = true;
+            this.labelTotalCrop.Location = new System.Drawing.Point(361, 84);
+            this.labelTotalCrop.Name = "labelTotalCrop";
+            this.labelTotalCrop.Size = new System.Drawing.Size(23, 25);
+            this.labelTotalCrop.TabIndex = 26;
+            this.labelTotalCrop.Text = "0";
             // 
             // label5
             // 
@@ -444,7 +444,6 @@
             // timerUpgrade
             // 
             this.timerUpgrade.Interval = 1000;
-            this.timerUpgrade.Tick += new System.EventHandler(this.timerUpgrade_Tick);
             // 
             // Form1
             // 
@@ -455,9 +454,9 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.labelTotalCorp);
+            this.Controls.Add(this.labelTotalCrop);
             this.Controls.Add(this.labelTotalWood);
-            this.Controls.Add(this.labelTotalIRon);
+            this.Controls.Add(this.labelTotalIron);
             this.Controls.Add(this.labelTotalClay);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -484,6 +483,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -519,9 +519,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label labelTotalClay;
-        private System.Windows.Forms.Label labelTotalIRon;
+        private System.Windows.Forms.Label labelTotalIron;
         private System.Windows.Forms.Label labelTotalWood;
-        private System.Windows.Forms.Label labelTotalCorp;
+        private System.Windows.Forms.Label labelTotalCrop;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;

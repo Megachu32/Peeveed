@@ -11,35 +11,65 @@ namespace utsBagian1Uts
     public static class DataBagian1
     {
         // data total resources
-        static int totalWood = 0;
-        static int totalIRon = 0;
-        static int totalClay = 0;
-        static int totalCrop = 0;
+        public static int totalWood = 0;
+        public static int totalIRon = 0;
+        public static int totalClay = 0;
+        public static int totalCrop = 0;
 
         //data rate production resource per hour
-        static int rateWood = 0;
-        static int rateIron = 0;
-        static int rateClay = 0;
-        static int rateCrop = 0;
+        public static int rateWood = 0;
+        public static int rateIron = 0;
+        public static int rateClay = 0;
+        public static int rateCrop = 0;
 
         //data timer normal
-        static int second = 0;
-        static int minute = 0;
-        static int hour = 0;
+        public static int second = 0;
+        public static int minute = 0;
+        public static int hour = 0;
 
         //data timer upgrade
-        static int upgradeSecond = 0;
-        static int upgradeMinute = 0;
-        static int upgradeHour = 0;
+        public static int upgradeSecond = 0;
+        public static int upgradeMinute = 0;
+        public static int upgradeHour = 0;
 
         //data bonus
-        static int bonus = 0;
+        public static int bonus = 0;
 
         //speed multiplier
-        static int speedmul = 0;
+        public static int speedmul = 0;
+
+        //store each building data in a list
+        public static List<int> buildingLevel = new List<int>();
+        public static List<string> buildingType = new List<string>();
+        public static List<int> buildingProduction = new List<int>();
+
+        //fucntion menambahakan bulding dan semua bulding data
+        public static void addBuilding(string tipe, int level, int production)
+        {
+            int[] data = getUpgradeData(tipe, level);
+            buildingType.Add(tipe);
+            buildingLevel.Add(level);
+            buildingProduction.Add(production);
+        }
+
+        //fucntion mengupgrade building dan semua bulding data
+        public static void UpgradeBuilding(int index)
+        {
+            if (index >= 0 && index < buildingLevel.Count)
+            {
+                string type = buildingType[index];
+                int newLevel = buildingLevel[index] + 1;
+                int[] data = getUpgradeData(type, newLevel);
+
+                buildingLevel[index] = newLevel;
+                buildingProduction[index] = data[5]; // update production rate only
+            }
+        }
 
 
-        static int[,] reqUpgradeTree =
+
+
+        public static int[,] reqUpgradeTree =
         {
             {40,100,50,60,260,7}, // format = wood,clay,iron,crop,waktu(detik),production/hour
             {65,165,85,100,620,13},//level 2
@@ -63,7 +93,7 @@ namespace utsBagian1Uts
             {681825,1704565,852280,1022740,4482770,3430}
         };
 
-        static int[,] reqUpgradeClay =
+        public static int[,] reqUpgradeClay =
         {
             {80,40,80,50,220,7},
             {135,65,135,85,550,13},
@@ -87,7 +117,7 @@ namespace utsBagian1Uts
             {1363650,681825,1363650,852280,4180540,3430}
         };
 
-        static int[,] reqUpgradeIron =
+        public static int[,] reqUpgradeIron =
         {
             {100,80,30,60,450,7},
             {165,135,50,100,920,13},
@@ -111,7 +141,7 @@ namespace utsBagian1Uts
             {1704565,1363650,511370,1022740,5918370,3430}
         };
 
-        static int[,] reqUpgradeCrop =
+        public static int[,] reqUpgradeCrop =
         {
             {100,80,30,60,450,7},
             {165,135,50,100,920,13},
