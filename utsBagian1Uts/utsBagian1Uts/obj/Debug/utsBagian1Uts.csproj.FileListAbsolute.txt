@@ -1,0 +1,15 @@
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.AssemblyReference.cache
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.Form1.resources
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.Properties.Resources.resources
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.GenerateResource.cache
+C:\Users\guest2077\Downloads\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.CoreCompileInputs.cache
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\bin\Debug\utsBagian1Uts.exe.config
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\bin\Debug\utsBagian1Uts.exe
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\bin\Debug\utsBagian1Uts.pdb
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.AssemblyReference.cache
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.Form1.resources
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.Properties.Resources.resources
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.GenerateResource.cache
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.csproj.CoreCompileInputs.cache
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.exe
+D:\Peeveed-part4\utsBagian1Uts\utsBagian1Uts\obj\Debug\utsBagian1Uts.pdb
