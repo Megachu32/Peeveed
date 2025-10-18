@@ -1,0 +1,10 @@
+C:\Users\dewad\source\repos\project pv1\project pv1\bin\Debug\project pv1.exe.config
+C:\Users\dewad\source\repos\project pv1\project pv1\bin\Debug\project pv1.exe
+C:\Users\dewad\source\repos\project pv1\project pv1\bin\Debug\project pv1.pdb
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project pv1.csproj.AssemblyReference.cache
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project_pv1.Form1.resources
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project_pv1.Properties.Resources.resources
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project pv1.csproj.GenerateResource.cache
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project pv1.csproj.CoreCompileInputs.cache
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project pv1.exe
+C:\Users\dewad\source\repos\project pv1\project pv1\obj\Debug\project pv1.pdb
