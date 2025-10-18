@@ -484,6 +484,7 @@
             this.buttonUpgrade.TabIndex = 0;
             this.buttonUpgrade.Text = "Upgrade";
             this.buttonUpgrade.UseVisualStyleBackColor = true;
+            this.buttonUpgrade.Click += new System.EventHandler(this.buttonUpgrade_Click);
             // 
             // groupBox3
             // 
